@@ -5,6 +5,6 @@ git commit -m "Initial commit", die Erlaubnis zum losschicken
 
 git push -u origin main, der letzte Schubs, schickt los
 
-git fetch, zum ziehen von den hochgeladenen Dateien
+git pull, zum ziehen von den hochgeladenen Dateien
 
 -->
