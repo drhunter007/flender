@@ -24,21 +24,19 @@ font-style: bold;
   color: black;
   font-size: 20px;
   text-align: center;
-  background-color: black;
 }
 
 button {
-  background-color: black;
+  
   color: rgb(0, 0, 0);
   border: none;
   font-size: 20px;
 }
 #button2 {
-  color: rgb(0, 0, 0);
-  background-color: black;
+  color: black;
   font-size: 20px;
   position:fixed;
     bottom: 20px;
     right: 20px;
-   
+    opacity: 0;
 }   
