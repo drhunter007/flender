@@ -52,18 +52,3 @@ function body3(){
     document.getElementById("body1").style.backgroundColor= "rgb(252, 255, 233)";
     funktion3();
 }
-function body1(){
-    document.getElementById("body1").style.backgroundColor= "white";
-    document.getElementById("body1").classList.add("lightmode");
-    funktion1();
-}
-function body2(){
-    document.getElementById("body1").style.backgroundColor= "black";
-    document.getElementById("body1").classList.remove("lightmode");
-    funktion2();
-}
-function body3(){
-    document.getElementById("body1").style.backgroundColor= "rgb(252, 255, 233)";
-    document.getElementById("body1").classList.add("lightmode");
-    funktion3();
-}

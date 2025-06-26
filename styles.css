@@ -35,6 +35,7 @@ font-style: bold;
   font-size: 20px;
 }
 #button2 {
+    background-color: black;
   color: black;
   font-size: 20px;
   position:fixed;
