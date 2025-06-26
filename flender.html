@@ -5,7 +5,7 @@
 <title>100/100 Quiz</title>
 </head>
 <body>
-<script src="script.js"></script>
+
 <h1 id="überschrift1">Quiz</h1>
 
 
@@ -14,11 +14,9 @@
 <p>Hier ist alles dunkel</p>
 <p>Findest du den Knopf, um alles wieder Hell zu machen?</p>
 <br><br>
-<button onclick="funktion1() ;  document.body.style.backgroundColor = 'lightblue';  this.style.backgroundColor = 'blue'">Klick mich!</button>
+<button onclick="document.body.style.backgroundColor = 'lightblue'; document.querySelector('h1').style.color = 'navy';">Klick mich!</button>
 <br><br>
-<button onclick="document.body.style.backgroundColor = 'white'; document.querySelector('h1').style.color = 'black'; this.style.backgroundColor = 'white';this.style.color = 'black';" >Klick mich! </button>
-<p>Was erwartet euch?</p>
-
+<button onclick="document.body.style.backgroundColor = 'black'; document.querySelector('h1').style.color = 'white';"> Klick mich!</button>
 
 </body>
 </html>
