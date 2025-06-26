@@ -11,16 +11,16 @@
 
 <h1 id="überschrift2">Eine Dunkle Website</h1>
 <p id="Zeile1">Hier ist alles dunkel</p>
-<p id="Zeile2">Findest du den Knopf, um alles wieder hell zu machen?</p>
+<p id="Zeile2">Drücke den Knopf "Licht!", um die Website hell zumachen!</p>
 <br><br>
-<button onclick="body1();">Licht!</button>
+<button onclick="body1()" id="button">Licht!</button>
 <br><br>
 <details>
-<summary id="hell" style=" color:black;font-size:40px;text-align:center;">VIEL ZU HELL!</summary>
-<p style="text-align:center;color:black;">Such in der unteren rechten Ecke nach einer angenehmeren Lösung</p>
+<summary id="hell" style=" color:black;font-size:40px;text-align:center;"></summary>
+<p style="text-align:center;color:black;" id="text"></p>
 </details>
 <br><br>
-<button  id="button1"; onclick="document.body.style.backgroundColor = 'black';"> Dunkelheit!</button>
+<button  id="button1"; onclick="body2()"> Dunkelheit!</button>
 <br></br>
 <br></br>
 <br></br>
@@ -29,7 +29,7 @@
 <br></br>
 <br></br>
 <br></br>
-<button id="button2"; onclick="document.body.style.backgroundColor = 'rgb(252, 255, 233)';">Perfekt!</button>
+<button id="button2"; onclick="body3()">Perfekt!</button>
 
 
 
