@@ -1,20 +1,26 @@
-h1 {
-    font-size: 120px;
-    font-family: sans-serif;
-    background-color: brown;
-    text-align:center;
-  color: rgb(0, 0, 0);
-  margin-left: 10px;
-  font-size: 50px;
-}
 body {
   background-color: rgb(0, 0, 0);
+}
+p {
+    color:white;
+    font-size:20px;
 }
 
 button {
   background-color: rgb(0, 0, 0);
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   border: none;
   padding: 10px;
   font-size: 20px;
+}
+
+#überschrift1 {
+text-align:center;
+color:aliceblue;
+font-size:70px;
+}
+#überschrift2 {
+  text-align: center;
+    color: aliceblue;
+ font-size:50px;
 }
