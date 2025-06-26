@@ -25,10 +25,11 @@ font-style: bold;
   font-size: 20px;
   text-align: center;
   background-color: black;
+  border: none;
 }
 
-button {
-  background-color: black;
+#button {
+  background-color: gray;
   color: rgb(0, 0, 0);
   border: none;
   font-size: 20px;
@@ -40,5 +41,6 @@ button {
   position:fixed;
     bottom: 20px;
     right: 20px;
+  border: none;
    
 }   
