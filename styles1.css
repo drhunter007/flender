@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(204, 204, 204);
+  background-color: limegreen;
   text-align:center;
 }
 
@@ -7,7 +7,7 @@ body {
 #überschrift1 {
 text-align:center;
 font-size:70px;
-color:grey;
+color:blue;
 font-style: bold;
 }
 #überschrift2 {
@@ -81,7 +81,7 @@ button:hover, button:active {
 }
  
 #text3 {
-  color:black;
+  color:purple;
   font-size:50px;
   text-align: center;
   opacity:0;
