@@ -76,3 +76,13 @@ font-style: bold;
   position:relative;
   left:470px;
 }
+#text3 {
+  color:black;
+  font-size:50px;
+  text-align: center;
+}
+#text2 {
+  color:black;
+  font-size:30px;
+  text-align: center;
+}
