@@ -84,9 +84,12 @@ button:hover, button:active {
   color:black;
   font-size:50px;
   text-align: center;
+  opacity:0;
 }
 #text2 {
   color:black;
   font-size:30px;
   text-align: center;
+  opacity:0;
+  
 }
