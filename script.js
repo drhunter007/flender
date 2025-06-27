@@ -44,7 +44,7 @@ function body2(){
 }
 function funktion3(){
     document.getElementById("hell").innerHTML = "Du hast es geschafft!";
-    document.getElementById("text").innerHTML= "Danke für dein Mitspielen!";
+    document.getElementById("text").innerHTML= "<a href ='Website2.html'> zum nächsten Quiz?</a>";
     document.getElementById("button1").innerHTML = "";
     document.getElementById("button1").style.backgroundColor = "rgb(252, 255, 233)";
 }
