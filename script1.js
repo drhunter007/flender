@@ -8,17 +8,12 @@ function getRandomColor() {
 }
 
 // Beispiel:
-document.body.style.backgroundColor = getRandomColor();
-function looping1() {
-   while (stop !=true) {
-    x= getRandomColor();
-    document.getElementById("body1").style.backgroundColor = x;
-}
+
      
-}
 function knopf1() {
-    looping1();
+    let x = setInterval(getRandomColor,500);
 }
-    document.getElementById("button1").innerHTML = "Stop!";
-    document.getElementById("button1").style.backgroundColor = "rgb(130, 150, 1)";
+function knopf2() {
+    clearInterval(x)
+}
     
