@@ -1,0 +1,1 @@
+if(document.getElementById("button1").style.color == "white") {}
