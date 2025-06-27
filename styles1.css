@@ -16,8 +16,6 @@ font-style: bold;
  font-size:50px;
  font-style: bold;
 }
-
-
 #div1, #div2, #div3 {
   width: 400px;
   height: 200px;
@@ -28,4 +26,40 @@ font-style: bold;
   margin: 10px;
   vertical-align: top;
   display: inline-block;
+}
+#button1 {
+  color: black;
+  font-size: 20px;
+  text-align: center;
+  border: none;
+}
+#button2 {
+  color: black;
+  font-size: 20px;
+  text-align: center;
+  border: none;
+}
+#betton1 {
+  color: black;
+  font-size: 20px;
+  text-align: center;
+  border: none;
+}
+#betton2 {
+  color: black;
+  font-size: 20px;
+  text-align: center;
+  border: none;
+}
+#batton1 {
+  color: black;
+  font-size: 20px;
+  text-align: center;
+  border: none;
+}
+#batton2 {
+  color: black;
+  font-size: 20px;
+  text-align: center;
+  border: none;
 }
