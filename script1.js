@@ -13,8 +13,9 @@ function getRandomColor() {
 
 // Beispiel:
 
-     
+     let x;
 function knopf1() {
+<<<<<<< HEAD
     if (intervalId === null) {
         intervalId = setInterval(() => {
             document.getElementById("div1").style.backgroundColor = getRandomColor();
@@ -51,3 +52,17 @@ function knopf6() {
 }
     
     
+=======
+     clearInterval(x);
+    x = setInterval(function() {
+        document.getElementById("div1").style.backgroundColor = getRandomColor();
+    }, 100);
+}
+function knopf2() {
+    clearInterval(x);
+}
+if(document.getElementById("button1").style.backgroundColor === document.getElementById("batton1").style.backgroundColor === document.getElementById("betton1").style.backgroundColor) {
+    document.getElementById("text3").style.display = "block";
+    document.getElementById("text2").style.display = "block";
+}
+>>>>>>> c4dafe10bae8b53344fda89abd203dcae85ed26e

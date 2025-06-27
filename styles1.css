@@ -80,3 +80,13 @@ button:hover, button:active {
   background-color: red;
 }
  
+#text3 {
+  color:black;
+  font-size:50px;
+  text-align: center;
+}
+#text2 {
+  color:black;
+  font-size:30px;
+  text-align: center;
+}

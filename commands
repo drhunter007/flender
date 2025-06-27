@@ -1,7 +1,7 @@
 <!--
  git add --all, alle hinzufügen
 
-git commit -m "Initial commit", die Erlaubnis zum losschicken
+git commit -m "Initial commit(sites)", die Erlaubnis zum losschicken
 
 git push -u origin main, der letzte Schubs, schickt los
 
