@@ -76,3 +76,7 @@ font-style: bold;
   position:relative;
   left:470px;
 }
+button:hover, button:active {
+  background-color: red;
+}
+ 
