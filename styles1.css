@@ -1,11 +1,8 @@
 body {
   background-color: rgb(204, 204, 204);
+  text-align:center;
 }
 
-p {
-    color:white;
-    font-size:20px;
-}
 
 #überschrift1 {
 text-align:center;
@@ -19,39 +16,16 @@ font-style: bold;
  font-size:50px;
  font-style: bold;
 }
-#button1 {
-  color: black;
-  font-size: 20px;
-  text-align: center;
-  background-color: black;
-  border: none;
-}
 
-#button {
-  background-color: gray;
-  color: rgb(0, 0, 0);
-  border: none;
-  font-size: 20px;
-}
-#button2 {
-    background-color: black;
-  color: black;
-  font-size: 20px;
-  position:fixed;
-    bottom: 20px;
-    right: 20px;
-  border: none;
-   
-}   
-a:link, a:visited {
-  background-color: hotpink;
-  color: rgb(4, 6, 19);
-  padding: 14px 25px;
+
+#div1, #div2, #div3 {
+  width: 400px;
+  height: 200px;
+  background-color: white;
+  border: 2px solid black;
   text-align: center;
-  text-decoration: none;
+  padding: 20px;
+  margin: 10px;
+  vertical-align: top;
   display: inline-block;
-  border-style: groove;
-}
-a:hover, a:active {
-  background-color: red;
 }
